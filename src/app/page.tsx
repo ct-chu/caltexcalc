@@ -114,7 +114,7 @@ const Home: NextPage = () => {
           size="small"
           value={oilQty !== null ? oilQty : ''}
           onChange={(e) => setOilQty(e.target.value === '' ? null : parseFloat(e.target.value))}
-          inputProps={{ style: { color: '#d8dee9', '-moz-appearance': 'textfield' } } as any}
+          inputProps={{ style: { color: '#d8dee9', MozAppearance: 'textfield' } }}
           InputLabelProps={{ style: { color: '#d8dee9' } }}
         />
         <TextField
@@ -125,7 +125,7 @@ const Home: NextPage = () => {
           size="small"
           value={totalPriceBeforeDiscount !== null ? totalPriceBeforeDiscount : ''}
           onChange={(e) => setTotalPriceBeforeDiscount(e.target.value === '' ? null : parseFloat(e.target.value))}
-          inputProps={{ style: { color: '#d8dee9', '-moz-appearance': 'textfield' } } as any}
+          inputProps={{ style: { color: '#d8dee9', MozAppearance: 'textfield' } }}
           InputLabelProps={{ style: { color: '#d8dee9' } }}
         />
         <TextField
@@ -136,7 +136,7 @@ const Home: NextPage = () => {
           size="small"
           value={couponDiscount !== null ? couponDiscount : ''}
           onChange={(e) => setCouponDiscount(e.target.value === '' ? null : parseFloat(e.target.value))}
-          inputProps={{ style: { color: '#d8dee9', '-moz-appearance': 'textfield' } } as any}
+          inputProps={{ style: { color: '#d8dee9', MozAppearance: 'textfield' } }}
           InputLabelProps={{ style: { color: '#d8dee9' } }}
         />
         <TextField
@@ -146,7 +146,7 @@ const Home: NextPage = () => {
           margin="normal"
           value={pumpPrice}
           onChange={(e) => setPumpPrice(e.target.value === '' ? '' : parseFloat(e.target.value))}
-          inputProps={{ style: { color: '#d8dee9', '-moz-appearance': 'textfield' } } as any}
+          inputProps={{ style: { color: '#d8dee9', MozAppearance: 'textfield' } }}
           InputLabelProps={{ style: { color: '#d8dee9' } }}
         />
         <TextField
