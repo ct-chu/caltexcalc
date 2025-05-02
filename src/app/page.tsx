@@ -157,7 +157,7 @@ const Home: NextPage = () => {
           size="small"
           value={cardDiscountPerLiter}
           onChange={(e) => setCardDiscountPerLiter(e.target.value === '' ? '' : parseFloat(e.target.value))}
-          inputProps={{ style: { color: '#d8dee9', '-moz-appearance': 'textfield' } } as any}
+          inputProps={{ style: { color: '#d8dee9', MozAppearance: 'textfield' } }}
           InputLabelProps={{ style: { color: '#d8dee9' } }}
         />
         <Button
